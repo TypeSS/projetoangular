@@ -1,0 +1,34 @@
+.task {
+background: #dbdbdb;
+margin: 8px;
+padding: 5% 10%;
+user-select: none;
+}
+.task:hover{
+transform: scale(1.09);
+transition: .2s;
+box-shadow: 0 4px 6px rgba(0, 0,0,0.5);
+}
+
+
+.task.reminder {
+border-left: 5px solid green;
+}
+
+.task h3 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+fa-icon:active{
+    transform: scale(.8);
+    
+}
+
+fa-icon:hover{
+color: rgb(205, 32, 32);
+cursor: pointer;    
+}
+
+
